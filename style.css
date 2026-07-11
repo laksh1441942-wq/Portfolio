@@ -561,6 +561,25 @@ footer ul li a{
         flex-direction: column;
         gap: 3rem;
     }
+    .info-box{
+        width: min(100%, 24rem);
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .info-box .text{
+        width: 100%;
+    }
+    .info-box h1{
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(2.25rem, 11vw, 4rem);
+    }
+    .info-box h3{
+        font-size: clamp(1.25rem, 6vw, 1.8rem);
+    }
+    .info-box span{
+        font-size: clamp(1rem, 5vw, 1.5rem);
+    }
     .input-box input{
         padding: 1rem 3rem;
         font-size: 1.5rem;
@@ -600,5 +619,15 @@ footer ul li a{
     }
     .nav-bar li a::before{
        display: none;
+    }
+    .info-box{
+        width: 100%;
+    }
+    .info-box .buttons{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .info-box .socials{
+        gap: 2rem;
     }
 }
